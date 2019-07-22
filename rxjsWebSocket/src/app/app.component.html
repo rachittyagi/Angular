@@ -1,0 +1,14 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  <div>
+  <button type="button" (click)="connect()">Connect</button>
+  <br/><br/>
+  <input type="text" [(ngModel)] = "message"/>
+  <br/><br/>
+  <button type="button" (click)="send()">Send Message</button>
+  </div>
+</div>
+
